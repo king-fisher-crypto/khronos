@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+/* トップページのスタイル*/
+
+.page-header {
+	display: none;
+    @media only screen and (max-width: 768px) {
+		display: flex;
+	}
+
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 0;
+	padding: 0 10px;
+	
+    &.header-sticky {
+    	box-shadow: 0 0 4px 1px rgba(0,0,0,0.1);
+    }
+
+   
+}
+
+.page-logo>img {
+	width: m-resize(89);
+}
+

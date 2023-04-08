@@ -1,0 +1,35 @@
+.atid-a-appear--img-right {
+    opacity: 0;
+    transform: translate3d(4rem, 0, 0)
+}
+.atid-a-appear--img-right.is-show {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition-duration: 1200ms;
+    transition-property: opacity, transform;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    /* POSITION: RELATIVE; */
+}
+.atid-a-appear--img-left {
+    opacity: 0;
+    transform: translate3d(-4rem, 0, 0)
+}
+.atid-a-appear--img-left.is-show {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition-duration: 1200ms;
+    transition-property: opacity, transform;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+
+.atid-a-appear--txt {
+    opacity: 0;
+    transform: translate3d(0, 4rem, 0);
+}
+.atid-a-appear--txt.is-show {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+    transition-duration: 2200ms;
+    transition-property: opacity, transform;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}

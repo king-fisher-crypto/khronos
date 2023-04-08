@@ -1,0 +1,799 @@
+<!-- HTMLコード -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+    <title>Khronos</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" />
+
+    <!-- css -->
+    <!-- <link rel="stylesheet" href="./libs/slick/slick.css">
+    <link rel="stylesheet" href="./libs/slick/slick-theme.css"> -->
+    <link rel="stylesheet" href="./assets/css/theme.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+    <!-- javascript -->
+    <script src="./libs/jquery/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+    <header class="page-header">
+        <a href="index.html" class="page-logo">
+            <img src="./assets/img/DELTA_College_LOGO.png" alt="">
+        </a>
+        <a href="#" class="ellapse-btn green-btn header-button"><h5>LINEでお試し動画を見る▶</h5></a>
+    </header>
+    
+    <main class="page-wrapper">
+        <section class="section section--page-banner ">
+            <figure>
+                <img src="./assets/img/banner3.png" alt="">
+            </figure>
+            <article>
+                <figcaption class="banner-caption mobile atid-a-appear--txt j-appear">DELTA College</figcaption>
+                <div class="caption-group">
+                    <span class="white--caption white--small-caption atid-a-appear--txt j-appear delay-1000">稼ぐ力を身につける</span>
+                    <span class="white--caption white-big-caption atid-a-appear--txt j-appear delay-2000">現役プロ講師によるオンライン授業</span>
+                    <span class="white--caption white--small-caption big-to-small-caption atid-a-appear--txt j-appear delay-1000">現役プロ講師による</span>
+                    <span class="white--caption white--small-caption big-to-small-caption atid-a-appear--txt j-appear delay-2000">オンライン授業</span>
+                </div>
+                <figcaption class="banner-caption desktop atid-a-appear--txt j-appear delay-3000">DELTA College</figcaption>
+                <div class="detaile-group atid-a-appear--txt j-appear delay-3000">
+                    <div class="detail-item">土日も◎ <br> 働きながら通える</div>
+                    <div class="detail-item">受講数の制限なし</div>
+                    <div class="detail-item">月額1万円で<br> 始められる</div>
+                </div>
+                <div style="display: flex ">
+                    <a href="#" class="green-btn ellapse-btn banner-button atid-a-appear--txt j-appear delay-3000"><h1>LINEでお試し動画を見る▶</h1></a>
+                </div>
+            </article>
+        </section>
+        <section class="section section--worry">
+            <div>
+                <div class="worry-title atid-a-appear--txt j-appear">こんなお悩みありませんか？</div>
+                <div class="mobile worry-right atid-a-appear--txt j-appear">
+                    <figure class="worry-img">
+                        <img src="./assets/img/worry.png" alt="">
+                    </figure>
+                </div>
+                <div class="worry-items">
+                    <div class="item atid-a-appear--img-left j-appear">転職活動をしながら勉強したい…</div>
+                    <div class="item atid-a-appear--img-left j-appear">仕事が忙しくスクールに通えない…</div>
+                    <div class="item atid-a-appear--img-left j-appear">複数のスキルを一つの場所で身につけたい…</div>
+                    <div class="item atid-a-appear--img-left j-appear">副業したいがなかなか独学では難しい…</div>
+                </div>
+            </div>
+            <div class="worry-right desktop atid-a-appear--img-right j-appear">
+                <figure class="worry-img">
+                    <img src="./assets/img/worry.png" alt="">
+                </figure>
+            </div>
+        </section>
+        <section class="section section--aboutUs">
+            <div class="section__title atid-a-appear--txt j-appear">
+                <h1>ABOUT <br class="ismobile">US</h1>
+                <span class="small-title">DELTA Collegeについて</span>
+            </div>
+            <div class="section__content">
+                <article class="description item atid-a-appear--img-left j-appear">
+                    DELTA Collegeは
+                    キャリアアップしたいが時間的にも金銭的にも
+                    なかなか踏み出せずにいる人々をサポートする<br class="sp">ために
+                    月額定額制で、24時間いつでも受講でき<br class="sp">る
+                    オンライン授業を展開しました。
+                    現役プロ講師による質の高いカリキュラムを提<br class="sp">供し<br class="pc">みなさんのキャリアアップをサポート致し<br class="sp">ます。
+                </article>
+                <div class="img--group item atid-a-appear--img-right j-appear">
+                    <figure class="img--about">
+                        <img src="./assets/img/about2.png" alt="">
+                    </figure>
+                    <figure class="ketborad">
+                        <img src="./assets/img/aboutUs2.png" >
+                    </figure>
+                </div>
+            </div>
+            <div class="aobut-details">
+                <div class="title-group item atid-a-appear--txt j-appear">
+                    <h3 class="jp-title ">講習カリキュラムは<br class="sp">全<span class="num"><img src="./assets/img/sunny.png" alt="">1800</span>種類以上</h3>
+                </div>
+                <p class="atid-a-appear--txt j-appear">
+                    業界屈指のカリキュラムが勢揃い！
+                    WEB・不動産・会計士といった幅広い授業が<br class="sp">月額たったの<strong>1</strong>万円(税抜)で受け放題！
+                </p>
+                <div class="item-group atid-a-appear--txt j-appear">
+                    <div class="item">
+                        <div class="item--title">
+                            <span class="num__title">01</span>
+                            <span class="text">試験対策</span>
+                        </div>
+                        <figure class="item-img">
+                            <img src="./assets/img/aboutItem1.png" alt="">
+                        </figure>
+                        <ul class="commet"> 
+                            <li>医療福祉保育</li>
+                            <li>営業販売</li>
+                            <li>経理経営</li>
+                            <li>不動産構築</li>
+                            <li>語学・高校卒業認定</li>
+                        </ul>
+                    </div>  
+                    <div class="item">
+                        <div class="item--title">
+                            <span class="num__title">02</span>
+                            <span class="text">IT・言語</span>
+                        </div>
+                        <figure class="item-img">
+                            <img src="./assets/img/aboutItem2.png" alt="">
+                        </figure>
+                        <ul class="commet"> 
+                            <li>プログラミング</li>
+                            <li>データベース</li>
+                            <li>ネットワーク</li>
+                            <li>短期集中TOEIC500・700点</li>
+                            <li>SNS活用集客力UP講座</li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <div class="item--title">
+                            <span class="num__title">03</span>
+                            <span class="text long-title">入門<br class="ismobile">ガイダンス</span>
+                        </div>
+                        <figure class="item-img">
+                            <img src="./assets/img/aboutItem3.png" alt="">
+                        </figure>
+                        <ul class="commet"> 
+                            <li>司法試験</li>
+                            <li>行政書士</li>
+                            <li>宅建士</li>
+                            <li>公務員試験</li>
+                            <li>不動産鑑定士</li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <div class="item--title">
+                            <span class="num__title">04</span>
+                            <span class="text">ビジネス</span>
+                        </div>
+                        <figure class="item-img">
+                            <img src="./assets/img/aboutItem4.png" alt="">
+                        </figure>
+                        <ul class="commet"> 
+                            <li>会計財務</li>
+                            <li>法務・コンプライアンス</li>
+                            <li>営業マーケティング</li>
+                            <li>マネジメント</li>
+                            <li>金融・人事労務</li>
+                            <li>メンタルヘルス</li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <div class="item--title">
+                            <span class="num__title">05</span>
+                            <span class="text">公開セミナー</span>
+                        </div>
+                        <figure class="item-img">
+                            <img src="./assets/img/aboutItem5.png" alt="">
+                        </figure>
+                        <ul class="commet"> 
+                            <li>日商簿記</li>
+                            <li>土地活用プランナー</li>
+                            <li>登録販売士</li>
+                            <li>税理士</li>
+                            <li>年金アドバイザー</li>
+                            <li>弁理士</li>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <div class="item--title">
+                            <span class="num__title">06</span>
+                            <span class="text">無料体験</span>
+                        </div>
+                        <figure class="item-img">
+                            <img src="./assets/img/aboutItem6.png" alt="">
+                        </figure>
+                        <ul class="commet"> 
+                            <li>公開会計士</li>
+                            <li>社労士</li>
+                            <li>土地家屋調査士</li>
+                            <li>料理</li>
+                            <li>ボクササイズ・ヨガ</li>
+                            <li>おうちダイエット</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="delta-collage">
+            <div class="smile">
+                <div class="left atid-a-appear--img-left j-appear">
+                    <div class="smile__title common-shadow">
+                        <p>キャリアアップするなら
+                            <strong>DELTA College</strong>にお任せ！
+                        </p>
+                    </div>
+                    <p class="text">最先端のWEB知識から社会人に必要な
+                        ビジネススキルや私生活における知識まであなたの
+                        身につけたいがここで叶います！</p>
+                    <div class="btn-group">
+                        <a href="#" class="ellapse-btn green-btn middle-btn"><h3>LINEでお試し動画を見る▶</h3></a>
+                        <a href="#" class="ellapse-btn blue-btn middle-btn"><h3>さっそく申込みをする▶</h3></a>
+                    </div>
+                </div>
+                <figure class="right atid-a-appear--img-right j-appear">
+                    <img src="./assets/img/deltaCollege.png" alt="">
+                </figure>
+            </div>
+            <div class="title atid-a-appear--txt j-appear">DELTA College 講師紹介</div>
+            <p class="atid-a-appear--txt j-appear">DELTA Collegeでは、各カリキュラムごとに<br class="sp">講師が異なります！<br class="pc">各カリキュラムの現役専<br class="sp">門講師から実践的な技術や知識が学べるのも<br class="sp">特徴です。
+            </p>
+            <div class="items">
+                <div class="item--wrapper">
+                    <div class="item atid-a-appear--txt j-appear">
+                    <div class="item__title-wrapper">
+                        <a href="#" class="item__title gif">Gif入門・Python入門・AWS入門</a>
+                    </div>    
+                    <figure class="college--item-img">
+                        <img src="./assets/img/deltaCollegeItem1.png" alt="">
+                    </figure>
+                    <div class="item--details">
+                        <p>2000年前後からIT業界に関わり、主にサーバー<br class="sp">サイド全般の講師を担当する。<br class="pc">
+                            開発言語ではJava<br class="sp">やPythonなど、OSではLinux<br class="pc">
+                            現在はクラウド関<br class="sp">連（AWS、OpenStack、Kubernetes等）の講師<br class="sp">も担当している。<br class="pc">
+                            好きな人物はリーナス・トーバ<br class="sp">ルズ氏。
+                        </p>
+                    </div>
+                </div>
+
+                </div>
+                <div class="item--wrapper">
+                    <div class="item atid-a-appear--txt j-appear">
+                        <div class="item__title-wrapper">
+                            <a href="#" class="item__title html">HTML基礎・JavaScript基礎・VB/NET基礎</a>
+                        </div>
+                        <figure class="college--item-img">
+                            <img src="./assets/img/deltaCollegeItem2.png" alt="">
+                        </figure>
+                        <div class="item--details">
+                            <p>大手企業の営業やTELオペレーター、水商売を<br class="sp">経て24歳からIT業界に携わり<br class="pc">
+                                ほぼ独学でプログ<br class="sp">ラミングを習得する（主な言語はJava) 。<br class="pc">
+                                SEを<br class="sp">兼任しながら、数々の企業でIT系の研修を行い、<br class="sp">受講生のプログラミング言語習得は<br class="pc">
+                                もちろんのこ<br class="sp">と、メンタル面のケアも抜かりなく行い、受講生<br class="sp">からの信頼も厚い。
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="item--wrapper">
+                    <div class="item atid-a-appear--txt j-appear">
+                        <div class="item__title-wrapper">
+                            <a href="#" class="item__title linux">Linuxシステム管理・情報セキュリティ入門・ネットワーク基礎</a>
+                        </div>
+                        <figure class="college--item-img">
+                            <img src="./assets/img/deltaCollegeItem3.png" alt="">
+                        </figure>
+                        <div class="item--details">
+                            <p>関西学院大学商学部卒。JavaやPythonなどの開<br class="sp">発言語の他にネットワーク関連の講師も<br class="pc">
+                                担当する。<br class="sp">2019年にコア・アカデミー(株)を創業。企業、学校、<br class="sp">官公庁等における<br class="pc">
+                                DX人材育成、リスキリング<br class="sp">教育を推し進める。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item--wrapper">
+                    <div class="item atid-a-appear--txt j-appear">
+                        <div class="item__title-wrapper">
+                            <a href="#" class="item__title c_java">C言語基礎・Java基礎・Webアプリケーション開発（Java）</a>
+                        </div>
+                        <figure class="college--item-img">
+                            <img src="./assets/img/deltaCollegeItem4.png" alt="">
+                        </figure>
+                        <div class="item--details">
+                            <p>文系出身、全くのプログラミング未経験でIT企業<br class="sp">に入社後、<br class="pc">
+                                ECサイトや不動産管理システム、勤怠<br class="sp">管理システムなどの開発や<br class="pc">
+                                企業ホームページの制<br class="sp">作に携わる。現在は主にIT企業の新入社員に向け<br class="sp">て、<br class="pc">
+                                技術系はもちろんのこと、ビジネスマナー等<br class="sp">の講師も担当する。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="interview">
+            <div class="title common-title atid-a-appear--txt j-appear common-shadow">
+                <span>受講生インタビュー</span>
+                <span>Interview</span>
+            </div>
+            <div class="interview-wrapper">
+                <div class="interview--item atid-a-appear--img-left j-appear">
+                    <div class="item__title-wrapper">
+                        <span class="item__title">R.S/40代/熊本県</span>
+                    </div>
+                    <div class="flex-block">
+                        <figure class="interview--img">
+                            <img src="./assets/img/interview1.png" alt="">
+                        </figure>
+                        <div class="caption first-caption"><span>新しい</span><span>自分</span></div>
+                    </div>
+                    <p>PCで授業を受けることができるのですが動<br class="pc sp">
+                        画での説明が分かりやすく何度も理解できる<br class="pc sp">
+                        まで見ていました。 サンプルコードがあり、<br class="pc sp">
+                        初めて自分で（見よう見まねでしたが）入力<br class="pc sp">
+                        し画面に反映された時は感動しました！調べ<br class="pc sp">
+                        てもどうやっても答えが出ないと絶望した時<br class="pc sp">
+                        も、SlackやZoomで先生に質問させて頂くこ<br class="pc sp">
+                        とができたので孤独になることも無く勉強で<br class="pc sp">
+                        きました。</p>
+                </div>
+                <div class="interview--item atid-a-appear--img-right j-appear">
+                    <div class="item__title-wrapper">
+                        <span class="item__title">R.W/30代/埼玉県</span>
+                    </div>
+                    <div class="flex-block">
+                        <figure class="interview--img">
+                            <img src="./assets/img/interview2.png" alt="">
+                        </figure>
+                        <div class="caption second-caption"><span>何歳に</span><span>なっても<span class="desktop">！</span></span></div>
+                    </div>
+                    <p>DELTA Collegeさんの授業動画は大変分かり<br class="pc sp">
+                        やすく分からない事があっても直ぐに先生へ<br class="pc sp">
+                        SlackやZoomで教えて頂ける事が出来安心し<br class="pc sp">
+                        て進める事が出来ました。それでも理解した<br class="pc sp">
+                        つもりで臨んだ演習問題が難しく投げ出した<br class="pc sp">
+                        くなる事がありました。しかし、スタッフの<br class="pc sp">
+                        方々のサポート、切磋琢磨しあえる受講仲間<br class="pc sp">
+                        が居てくれたからこそ何とかここまでこれま<br class="pc sp">
+                        した。</p>
+                </div>
+                <div class="interview--item atid-a-appear--img-left j-appear">
+                    <div class="item__title-wrapper">
+                        <span class="item__title">M.N/20代/東京都</span>
+                    </div>
+                    <div class="flex-block">
+                        <figure class="interview--img">
+                            <img src="./assets/img/interview3.png" alt="">
+                        </figure>
+                        <div class="caption third-caption two--line-caption"><span>やって</span><span>みなくちゃ</span><span style="display: block;">わからない<span class="desktop">！</span></span></div>
+                    </div>
+                    <p>向いているかどうかもわからないまま始め<br class="pc sp">
+                        た私ですが、今では楽しんで勉強している<br class="pc sp">
+                        ことに、自分でも驚いています。学んだり<br class="pc sp">
+                        新しい知識を得たりする喜びを再確認でき<br class="pc sp">
+                        ました。やってみて、チャレンジしてみて<br class="pc sp">
+                        よかった！と何度も思っています。この感<br class="pc sp">
+                        謝をいつかお仕事でお返しできるように、<br class="pc sp">
+                        これからも精進していきたいです！</p>
+                </div>
+                <div class="interview--item atid-a-appear--img-right j-appear">
+                    <div class="item__title-wrapper">
+                        <span class="item__title">K.T/30代/東京都</span>
+                    </div>
+                    <div class="flex-block">
+                        <figure class="interview--img">
+                            <img src="./assets/img/interview4.png" alt="">
+                        </figure>
+                        <div class="caption forth-caption"><span>本当に</span><span>無駄のない</span><span>講座</span></div>
+                    </div>
+                    <p>本当に良い意味で無駄のない講座だなとい<br class="pc sp">
+                        う印象です。一つ一つの授業が大事な内容<br class="pc sp">
+                        で余計な情報がないので、効率的に学習を<br class="pc sp">
+                        進められると思います。30代になると、よ<br class="pc sp">
+                        り時間の大切さを実感しますが、充実した<br class="pc sp">
+                        時間を過ごせている気がして満足感が高い<br class="pc sp">
+                        講座だと思います。</p>
+                </div>
+                <div class="interview--item atid-a-appear--img-left j-appear">
+                    <div class="item__title-wrapper">
+                        <span class="item__title">A.O/30代/海外</span>
+                    </div>
+                    <div class="flex-block">
+                        <figure class="interview--img">
+                            <img src="./assets/img/interview5.png" alt="">
+                        </figure>
+                        <div class="caption fifth-caption two--line-caption"><span>場所に</span><span class="two">とらわれない</span><span class="three"><br class="pc">生活を</span><span class="">目指して</span></div>
+                    </div>
+                    <p>DELTA Collegeは企業の未経験の新人研修<br class="pc sp">
+                        に使用している講座というだけあり、お仕<br class="pc sp">
+                        事に直結した内容だと感じました。JavaS<br class="pc sp">
+                        criptは独学で勉強していたのですが、独学<br class="pc sp">
+                        ではどこから手をつけていいのかわからな<br class="pc sp">
+                        かった部分がありました。この講座では重<br class="pc sp">
+                        要な点を丁寧な説明で体系的に学ぶ事が出<br class="pc sp">
+                        来て、大変ありがたいです。各コース最後<br class="pc sp">
+                        の演習問題では、易しい問題を解く事から<br class="pc sp">
+                        始まり、徐々にレベルの高い内容が理解で<br class="pc sp">
+                        きるまで導いてもらうような感覚でした。</p>
+                </div>
+                <div class="interview--item atid-a-appear--img-right j-appear">
+                    <div class="item__title-wrapper">
+                        <span class="item__title">S.M/40代/熊本県</span>
+                    </div>
+                    <div class="flex-block">
+                        <figure class="interview--img">
+                            <img src="./assets/img/interview6.png" alt="">
+                        </figure>
+                        <div class="caption sixth-caption"><span>夢への</span><span>第一歩</span></div>
+                    </div>
+                    <p>講座の内容が短い動画でまとめられている<br class="pc sp">
+                        ので、ひとつひとつの学習が短時間ででき<br class="pc sp">
+                        ます。スキマ時間を利用しての学習がしや<br class="pc sp">
+                        すく、とても良かったです。また、わから<br class="pc sp">
+                        ないことだらけでしたが皆さんにいつでも<br class="pc sp">
+                        質問ができる環境や質問内容をきちんとま<br class="pc sp">
+                        とめて頂いていたので回答が導きやすかっ<br class="pc sp">
+                        たです。 仕事で日中のMTGに参加できた<br class="pc sp">
+                        ない人向けに夜のMTGも開催されているの<br class="pc sp">
+                        で直接お話ができ学習が進めやすい環境で<br class="pc sp">
+                        した。</p>
+                </div>
+            </div>
+        </section>
+        <section class="reason">
+            <div class="title-group common-title atid-a-appear--txt j-appear common-shadow">
+                <span>DELTA Collegeが選ばれる理由</span>
+                <span>Reason</span>
+            </div>
+            <div class="reason-wrapper">
+                <div class="reason--item atid-a-appear--img-left j-appear">
+                    <div class="detail ">
+                        <h3 class="caption">企業の社内教育レベルの<br class="sp">豊富な内容が受けられる</h3>
+                        <p>DELTA Collegeでは、企業向けにも<br class="sp">サービスを提供。
+                            企業の社内教育レベルに<br class="sp">活用する内容が
+                            なんと今回！オンラインで<br class="sp">皆さんにも体験していただけます。<br class="sp">
+                            実践的なレベルの高いカリキュラムで<br class="sp">
+                            皆さんのネクストステージをサポート致します。
+                        </p>
+                    </div>
+                    <figure class="reason--img">
+                        <img src="./assets/img/reason1.png" alt="">
+                    </figure>
+                </div>
+                <div class="reason--item atid-a-appear--img-right j-appear">
+                    <figure class="reason--img">
+                        <img src="./assets/img/reason2.png" alt="">
+                    </figure>
+                    <div class="detail">
+                        <h3 class="caption">全1800種類以上の内容が<br class="sp">月額1万円で受け放題</h3>
+                        <p>全1800種類以上の豊富なカリキュラムが<br class="sp">
+                            なんと月額1万円(税抜)で受け放題！<br class="sp">
+                            DELTA Collegeには身につけたいスキルが<br class="sp">多く揃っています。
+                            最先端のWEBから経理まで、<br class="sp">社会人としての<br class="sp">
+                            キャリアアップを一緒に目指しましょう！
+                        </p>
+                    </div>
+                </div>
+                <div class="reason--item atid-a-appear--img-left j-appear">
+                    <div class="detail">
+                        <h3 class="caption"><span>オンラインだからどこからでも</span><br class="sp">好きな時間に受講可能</h3>
+                        <p>働きながらの人でも受講可能！<br class="sp">
+                            オンラインだから、お仕事終わりの時間や場所を<br class="sp">問わず
+                            いつでもどこでもオンライン授業に<br class="sp">参加できます。
+                            自分の生活スタイルに合わせて<br class="sp">受けられるから
+                            これまで勉強したくても、<br class="sp">できなかった人も安心◎
+                        </p>
+                    </div>
+                    <figure class="reason--img">
+                        <img src="./assets/img/reason3.png" alt="">
+                    </figure>
+                </div>
+                <div class="reason--item atid-a-appear--img-right j-appear">
+                    <figure class="reason--img">
+                        <img src="./assets/img/reason4.png" alt="">
+                    </figure>
+                    <div class="detail">
+                        <h3 class="caption">現役のプロ講師によるコンテンツ制作</h3>
+                        <p>DELTA Collegeではなんと講師自身が<br class="sp">
+                            カリキュラムのコンテンツ内容を考えています！<br class="sp">
+                            そのため、現場に出たときにも活かせる<br class="sp">実践的な内容を
+                            学ぶことができます。<br class="sp">現役のプロ講師だからリアルタイムの情報を<br class="sp">
+                            お届けできるのも強みの1つとなっています。
+                        </p>
+                    </div>
+                </div>
+                <div class="reason--item atid-a-appear--img-left j-appear">
+                    <div class="detail">
+                        <h3 class="caption">課題提出でステップアップ</h3>
+                        <p>よくある聞き流しのオンライン授業と違って<br class="sp">
+                            DELTA Collegeではカリキュラムごとに<br class="sp">
+                            復習できるように課題を解きながら<br class="sp">進めることが可能です。<br class="sp">
+                            そのため、身につくスピードもUP！<br class="sp">
+                            課題をこなしながら一緒に頑張りましょう！
+                        </p>
+                    </div>
+                    <figure class="reason--img">
+                        <img src="./assets/img/reason5.png" alt="">
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="summary">
+            <div class="summary-top atid-a-appear--txt j-appear common-shadow">
+                <h4>＼ 月額1万円でオンライン授業が受け放題／</h4>
+                <h2 class="caption">稼ぐ力を身に付ける
+                    実践型オンライン授業</h2>
+            </div>
+            <div class="summary-under">
+                <div class="btn-group atid-a-appear--txt j-appear">
+                    <a href="#" class="ellapse-btn green-btn big-btn"><h1>LINEでお試し動画を見る▶</h1></a>
+                    <a href="#" class="ellapse-btn blue-btn big-btn"><h1>さっそく申込みをする▶</h1></a>
+                </div>
+                <figure class="summary-img atid-a-appear--img-right j-appear">
+                    <img src="./assets/img/woman2.png" alt="">
+                </figure>
+
+            </div>
+        </section>
+        <section class="question">
+            <h3 class="atid-a-appear--txt j-appear common-shadow">DELTA Collegeは<br class="sp">どんな内容？</h3>
+            <div class="question-group ">
+                <div class="item___wrapper atid-a-appear--txt j-appear">
+                    <div class="item">
+                        <div class="item-title">
+                            <span class="small">カリキュラム</span>
+                            <span class="big">全1800種類以上</span>
+                        </div>
+                        <figure class="item--img">
+                            <img src="./assets/img/summary1.png" alt="">
+                        </figure>
+                        <p>カリキュラムの種類は1800種類以上
+                            WEB・会計士・宅建士
+                            営業・医療福祉保育といった幅広い
+                            カリキュラムが勢揃い！
+                        </p>
+                    </div>
+                </div>
+                <div class="item___wrapper atid-a-appear--txt j-appear">
+                    <div class="item">
+                        <div class="item-title">
+                            <span class="small">受講形態</span>
+                            <span class="big">完全オンライン</span>
+                        </div>
+                        <figure class="item--img">
+                            <img src="./assets/img/summary2.png" alt="">
+                        </figure>
+                        <p>受講はすべてオンラインで完結！
+                            仕事終わりの遅い時間や
+                            家事のスキマ時間に受けられる。
+                            海外からの参加もありました。
+                        </p>
+                    </div>
+                </div>
+                <div class="item___wrapper atid-a-appear--txt j-appear">
+                    <div class="item">
+                        <div class="item-title">
+                            <span class="small">経験の有無</span>
+                            <span class="big">未経験者OK</span>
+                        </div>
+                        <figure class="item--img">
+                            <img src="./assets/img/summary3.png" alt="">
+                        </figure>
+                        <p>全くの異業界スキルや
+                            初めての方もご安心ください。
+                            未経験の方にも受けていただける
+                            カリキュラムとなっております。
+                        </p>
+                    </div>
+                </div>
+                <div class="item___wrapper atid-a-appear--txt j-appear">
+                    <div class="item high-item">
+                        <div class="item-title">
+                            <span class="small">サポート</span>
+                            <span class="big">24時間受付中</span>
+                        </div>
+                        <figure class="item--img">
+                            <img src="./assets/img/summary4.png" alt="">
+                        </figure>
+                        <p>申込方法が分からないなどの
+                            お問い合わせは24時間受付中。
+                            LINEまたはメールにて
+                            お気軽にご連絡ください。
+                        </p>
+                    </div>
+                </div>
+                <div class="item___wrapper atid-a-appear--txt j-appear">
+                    <div class="item">
+                        <div class="item-title">
+                            <span class="small">受講期間</span>
+                            <span class="big">期間制限なし</span>
+                        </div>
+                        <figure class="item--img">
+                            <img src="./assets/img/summary5.png" alt="">
+                        </figure>
+                        <p>受講期間の制限はありません。
+                            自分の生活スタイルに合わせて
+                            受講できるから満足いくまで
+                            授業を受けていただけます。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flow">
+            <h3 class="flow--title simple-title atid-a-appear--txt j-appear common-shadow">受講の流れ</h3>
+            <div class="content" >
+                <div class="step-item atid-a-appear--txt j-appear common-shadow">
+                    <div class="left-wrapper">
+                        <h3 class="left--step">STEP1</h3>
+                    </div>
+                    <div class="right--step">
+                        <span class="step--caption">LINE友だち追加または会員登録！<br class="sp">下のボタンよりCHECK！</span>
+                        <div class="links">
+                            <a href="#" class="small-btn gradient-btn ellips-btn green-btn"><h6>LINEでお試し動画を見る▶</h6></a>
+                            <a href="#" class="small-btn gradient-btn ellips-btn blue-btn"><h6>LINEでお試し動画を見る▶</h6></a>
+                        </div>
+                    </div>  
+                </div>
+                <div class="step-item atid-a-appear--txt j-appear common-shadow">
+                    <div class="left-wrapper">
+                        <h3 class="left--step">STEP2</h3>
+                    </div>
+                    <div class="right--step">
+                        <span class="step--caption">クレジットカード登録して受講開始！
+                            いつでもどこでも、<br class="sp">自分の好きなカリキュラムを受けられます。</span>
+                    </div>
+                </div>
+                <div class="step-item atid-a-appear--txt j-appear common-shadow">
+                    <div class="left-wrapper">
+                        <h3 class="left--step">STEP3</h3>
+                    </div>
+                    <div class="right--step">
+                        <span class="step--caption">実践で講師とともにカリキュラムを<br class="sp">こなしていきましょう。<br class="sp pc">質問は、LINEまたはメールにて<br class="sp">24時間受け付けております。</span>
+                    </div>
+                </div>
+                <div class="step-item atid-a-appear--txt j-appear common-shadow">
+                    <div class="left-wrapper">
+                        <h3 class="left--step">STEP4</h3>
+                    </div>
+                    <div class="right--step">
+                        <span class="step--caption">スキルを身につけ副業や転職活動の材料に◎<br class="sp pc">継続した形で、<br class="sp">キャリアアップを目指しましょう！</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="faq">
+            <span class="title simple-title atid-a-appear--txt j-appear common-shadow">よくある質問</span>
+            <div class="content">
+                <div class="faq-item atid-a-appear--txt j-appear">
+                    <div class="same-type question">
+                        <span class="question-type circle">Q</span>
+                        <p>スマホからも受講できますか？</p>
+                    </div>
+                    <div class="same-type answer">
+                        <div>
+                            <span class="answer-type circle">A</span>
+                            <div>
+                                <p>受講できます。但し、Google classroomの<br class="sp">アプリのインストール必要です。</p>
+                                <p class="url ">参考：https://support.google.com/edu/classroom/answer/6118412?hl=ja</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item atid-a-appear--txt j-appear">
+                    <div class="same-type question">
+                        <span class="question-type circle">Q</span>
+                        <p>Googleアカウントは必要ですか？</p>
+                    </div>
+                    <div class="same-type answer">
+                        <div>
+                            <span class="answer-type circle">A</span>
+                            <div>
+                                <p>必要です。</p>
+                                <p class="url ">参考：https://support.google.com/accounts/answer/27441</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-item atid-a-appear--txt j-appear">
+                    <div class="same-type question">
+                        <span class="question-type circle">Q</span>
+                        <p>各講座に受講可能期間はありますか？</p>
+                    </div>
+                    <div class="same-type answer">
+                        <div>
+                            <span class="answer-type circle">A</span>
+                            <p>ありません。<br class="sp">ご自身のペースで学習を進めることができます。</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item atid-a-appear--txt j-appear">
+                    <div class="same-type question">
+                        <span class="question-type circle">Q</span>
+                        <p>メンター制度はありますか？</p>
+                    </div>
+                    <div class="same-type answer">
+                        <div>
+                            <span class="answer-type circle">A</span>
+                            <p>一部の講座のみ存在します。<br class="sp">月額料金＋10万円(税別)で受けることができます。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item atid-a-appear--txt j-appear">
+                    <div class="same-type question">
+                        <span class="question-type circle">Q</span>
+                        <p>お支払い方法は何がありますか？</p>
+                    </div>
+                    <div class="same-type answer">
+                        <div>
+                            <span class="answer-type circle">A</span>
+                            <div>
+                                <p>PayPalのみとなっております。</p>
+                                <p class="url">参考：https://www.paypal.com/jp/webapps/mpp/personal/how-to-signup-personal</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item atid-a-appear--txt j-appear">
+                    <div class="same-type question">
+                        <span class="question-type circle">Q</span>
+                        <p>返金対応はできますか？</p>
+                    </div>
+                    <div class="same-type answer">
+                        <div>
+                            <span class="answer-type circle">A</span>
+                            <p>できかねます。予めご了承くださいませ。
+                            </p>
+                        </div>
+                    </div>
+                        </div>
+                <div class="faq-item atid-a-appear--txt j-appear">
+                    <div class="same-type question">
+                        <span class="question-type circle">Q</span>
+                        <p>問い合わせ先はありますか？</p>
+                        
+                    </div>
+                    <div class="same-type answer">
+                        <div>
+                            <span class="answer-type circle">A</span>
+                            <p>メールやLINEで24時間受け付けております。<br class="sp">
+                                対応時間は平日10-17時です。<br>
+                                時間外のお問い合わせについては翌営業日まで<br class="sp">に返信いたします。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="delta-collage">
+            <div class="bye smile">
+                <div class="bye-img--wrapper">
+                    <figure class="bye-img right atid-a-appear--img-left j-appear">
+                        <img src="./assets/img/bye.png" alt="">
+                    </figure>
+                </div>
+                <div class="bye-right left atid-a-appear--img-right j-appear">
+                    <div class="bye-title smile__title common-shadow">
+                        <p>キャリアアップするなら<strong>
+                        DELTA College</strong><span>にお任せ！</span></p>
+                    </div>
+                    <p class="text">働きながら挑戦するあなたをサポートします。
+                        副業や転職活動に活かせる
+                        ビジネススキルを取得しましょう！
+                    </p>
+                    <div class="btn-group">
+                        <a href="#" class="ellapse-btn green-btn middle-btn"><h3>LINEでお試し動画を見る▶</h3></a>
+                        <a href="#" class="ellapse-btn blue-btn middle-btn"><h3>さっそく申込みをする▶</h3></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="logo ">
+            <img src="./assets/img/DELTA_College_LOGO.png " alt="">
+        </section>
+        <section class="floating-banner mobile">
+            <a href="#" class="green"><p>LINEでお試し動画を見る▶</p></a>
+            <a href="#" class="blue"><p>さっそく申込みをする▶</p></a>
+        </section>
+    </main>
+    <!-- <script src="./libs/script.js"></script> -->
+    <!-- <script src="./libs/slick/slick.min.js"></script> -->
+    <!-- <script src="./libs/jquery/jquery-3.4.1.min.js"></script> -->
+    <!-- <script src="./libs/ddslick/ddslick.min.js"></script> -->
+    <script src="./assets/js/theme.js"></script>
+</body>
+</html>
